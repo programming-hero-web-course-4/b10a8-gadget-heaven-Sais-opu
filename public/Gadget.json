@@ -1,0 +1,189 @@
+[
+    {
+        "product_id": "L001",
+        "product_title": "Dell XPS 15",
+        "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/xps-15-9510/xps-15-9510-01-500x500.jpg",
+        "category": "Laptops",
+        "price": 1499,
+        "description": "Powerful laptop with a stunning display and long battery life.",
+        "specification": [
+            "15.6-inch UHD+ display",
+            "Intel Core i7",
+            "16GB RAM",
+            "512GB SSD",
+            "NVIDIA GTX 1650"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "L002",
+        "product_title": "MacBook Pro 16",
+        "product_image": "https://i.ytimg.com/vi/Grse3sgeHpM/maxresdefault.jpg",
+        "category": "Laptops",
+        "price": 2399,
+        "description": "The ultimate laptop for creatives and professionals.",
+        "specification": [
+            "16-inch Retina display",
+            "Apple M2 Pro chip",
+            "16GB RAM",
+            "1TB SSD",
+            "Up to 21 hours of battery life"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "L003",
+        "product_title": "HP Spectre x360",
+        "product_image": "https://cdn.mos.cms.futurecdn.net/Hrq2TjjHh64VLrc3YgFYA8-1200-80.jpg",
+        "category": "Laptops",
+        "price": 1299,
+        "description": "Versatile 2-in-1 laptop with excellent performance.",
+        "specification": [
+            "13.5-inch FHD display",
+            "Intel Core i5",
+            "8GB RAM",
+            "256GB SSD",
+            "360-degree hinge"
+        ],
+        "availability": false,
+        "rating": 4.5
+    },
+    {
+        "product_id": "L004",
+        "product_title": "ASUS ROG Zephyrus G14",
+        "product_image": "https://rog.asus.com/media/170728681833.jpg",
+        "category": "Laptops",
+        "price": 1799,
+        "description": "Compact and powerful gaming laptop with impressive graphics.",
+        "specification": [
+            "14-inch WQHD display",
+            "AMD Ryzen 9",
+            "16GB RAM",
+            "1TB SSD",
+            "NVIDIA RTX 3060"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "L005",
+        "product_title": "Lenovo ThinkPad X1 Carbon",
+        "product_image": "https://i.ytimg.com/vi/iqCm5uLIhCM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCaRW3KxzxJPebBf9mOWb85Y3P4MQ",
+        "category": "Laptops",
+        "price": 1399,
+        "description": "Lightweight and durable, perfect for business professionals.",
+        "specification": [
+            "14-inch FHD display",
+            "Intel Core i7",
+            "16GB RAM",
+            "512GB SSD",
+            "Fingerprint reader"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "L006",
+        "product_title": "Acer Swift 3",
+        "product_image": "https://images.acer.com/is/image/acer/acer-laptop-swift-3-kick-start-your-productivity-l-2?$responsive$",
+        "category": "Laptops",
+        "price": 899,
+        "description": "Affordable and lightweight with solid performance.",
+        "specification": [
+            "14-inch FHD display",
+            "Intel Core i5",
+            "8GB RAM",
+            "512GB SSD",
+            "Up to 11 hours battery life"
+        ],
+        "availability": false,
+        "rating": 4.3
+    },
+    {
+        "product_id": "P001",
+        "product_title": "Apple iPhone 15 Pro Max",
+        "product_image": "https://i5.walmartimages.com/asr/af58cbfe-8bd3-4b4d-ba01-2b5ad0103d98.c56cf59601089cb7d90717978b5b2e5c.jpeg",
+        "category": "Phones",
+        "price": 1299,
+        "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+        "specification": [
+            "6.7-inch Super Retina XDR display",
+            "A17 Bionic chip",
+            "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+            "LiDAR Scanner",
+            "Up to 2TB storage"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "P002",
+        "product_title": "Samsung Galaxy S23 Ultra",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Galaxy-S23-Ultra-Green-3380.jpg",
+        "category": "Phones",
+        "price": 1199,
+        "description": "High-end smartphone with exceptional camera and performance.",
+        "specification": [
+            "6.8-inch Dynamic AMOLED display",
+            "Snapdragon 8 Gen 2",
+            "12GB RAM",
+            "512GB storage",
+            "200MP camera system"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "P003",
+        "product_title": "Google Pixel 8 Pro",
+        "product_image": "https://mobilebuzzbd.com/wp-content/uploads/2023/12/Pixel-8-Pro.jpg",
+        "category": "Phones",
+        "price": 999,
+        "description": "The Google Pixel 8 Pro with AI-powered camera features.",
+        "specification": [
+            "6.7-inch OLED display",
+            "Google Tensor G3 chip",
+            "12GB RAM",
+            "128GB storage",
+            "50MP wide camera"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "S001",
+        "product_title": "Apple Watch Series 9",
+        "product_image": "https://mac-center.com.pr/cdn/shop/files/Apple_Watch_Series_9_GPS_45mm_Midnight_Aluminum_Midnight_Sport_Band_PDP_Image_Position-7__en-US_bd4f7f59-0387-4d91-8b07-15cc69bf6039.jpg?v=1706861692&width=823",
+        "category": "Smartwatches",
+        "price": 499,
+        "description": "Advanced health features and seamless connectivity.",
+        "specification": [
+            "45mm Retina LTPO OLED display",
+            "S9 chip",
+            "Blood oxygen sensor",
+            "ECG app",
+            "Water-resistant up to 50 meters"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "S002",
+        "product_title": "Samsung Galaxy Watch6 Classic",
+        "product_image": "https://images.samsung.com/ph/galaxy-watch6/feature/galaxy-watch6-kv-pc.jpg",
+        "category": "Smartwatches",
+        "price": 399,
+        "description": "Stylish smartwatch with advanced health tracking and connectivity.",
+        "specification": [
+            "1.5-inch Super AMOLED display",
+            "Exynos W930 processor",
+            "Heart rate monitor",
+            "Sleep tracking",
+            "GPS"
+        ],
+        "availability": false,
+        "rating": 4.4
+    }
+]

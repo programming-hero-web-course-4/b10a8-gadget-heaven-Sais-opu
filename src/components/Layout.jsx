@@ -8,7 +8,7 @@ const Layout = () => {
             {/* Navbar */}
             <Nav></Nav>
             {/* change part */}
-            <div className="min-h-[calc(100vh-232px)]">
+            <div>
                 <Outlet></Outlet>
             </div>
             {/* footer */}
