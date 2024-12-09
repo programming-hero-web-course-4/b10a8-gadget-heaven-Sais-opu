@@ -1,6 +1,6 @@
 import { Link, Outlet, useLoaderData } from 'react-router-dom';
 import Banner from '../components/Banner';
-
+import Nav  from '../components/Nav';
 import Categories from '../components/Categories';
 import BannerU from '../components/BannerU';
 const Home = () => {
@@ -8,8 +8,9 @@ const Home = () => {
     return (
         <div>
             {/* banner */}
+            <Nav></Nav>
             <div>
-                <BannerU className='mx-14 -mt-36 pb-72'
+                <BannerU className='mx-16 -mt-36 pb-72'
                 ></BannerU>
                 <Banner></Banner>
             </div>

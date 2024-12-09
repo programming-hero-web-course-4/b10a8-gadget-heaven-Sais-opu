@@ -96,12 +96,7 @@ const Nav = () => {
                             >
                                 Dashboard
                             </NavLink>
-                            <NavLink
-                                className="btn -mt-3 font-bold bg-[#9538E2] text-white"
-                                to="/signUp"
-                            >
-                                Sign Up
-                            </NavLink>
+                            
                         </ul>
                     </div>
                     <div className="navbar-end gap-4">
