@@ -1,4 +1,4 @@
-
+import { NavLink } from "react-router-dom";
 
 const Data = ({ data }) => {
     const { product_title, product_image } = data || {};
@@ -13,7 +13,7 @@ const Data = ({ data }) => {
                         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                         quasi. In deleniti eaque aut repudiandae et a id nisi.
                     </p>
-                    <button className="btn btn-primary">Get Started</button>
+                    <NavLink><button className="btn btn-primary">Details</button></NavLink>
                 </div>
             </div>
         </div>
