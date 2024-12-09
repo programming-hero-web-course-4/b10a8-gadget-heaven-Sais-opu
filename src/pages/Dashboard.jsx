@@ -54,7 +54,7 @@ const Dashboard = () => {
                 {isActive.available ? (
                     <Cart cartItems={cartItems} />
                 ) : (
-                    <Wishlist wishlistItems={wishlistItems} />
+                    <Wish wishlistItems={wishlistItems} />
                 )}
             </div>
             <Details addToCart={addToCart} addToWishlist={addToWishlist} />

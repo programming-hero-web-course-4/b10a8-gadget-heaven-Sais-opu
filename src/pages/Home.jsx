@@ -2,12 +2,15 @@ import { Link, Outlet, useLoaderData } from 'react-router-dom';
 import Banner from '../components/Banner';
 
 import Categories from '../components/Categories';
+import BannerU from '../components/BannerU';
 const Home = () => {
     const categories = useLoaderData()
     return (
         <div>
             {/* banner */}
             <div>
+                <BannerU className='mx-14 -mt-36 pb-72'
+                ></BannerU>
                 <Banner></Banner>
             </div>
             {/* category */}

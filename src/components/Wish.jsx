@@ -1,6 +1,7 @@
 
 
-const Wish = () => {
+
+const Wish = ({wishlistItems}) => {
     return (
         <div>
             

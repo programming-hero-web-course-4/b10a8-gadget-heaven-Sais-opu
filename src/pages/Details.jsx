@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useLoaderData } from "react-router-dom";
-import { toast, ToastContainer, Bounce } from 'react-toastify';
+import { Bounce,toast, ToastContainer,} from 'react-toastify';
 import { useState } from "react";
 
 const Details = () => {
