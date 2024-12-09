@@ -1,7 +1,7 @@
-import { NavLink } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 const Data = ({ data }) => {
-    const { product_title, product_image,price } = data || {};
+    const { product_title, product_image,price,product_id } = data || {};
 
     return (
         <div className="hero  ">
@@ -12,7 +12,8 @@ const Data = ({ data }) => {
                     <p >
                         Price:{price}
                     </p>
-                    <NavLink><button className="btn btn-primary">Details</button></NavLink>
+                    
+                    <Link to={`/details/${product_id}`}><button className="btn btn-primary" >Details</button></Link>
                 </div>
             </div>
         </div>
