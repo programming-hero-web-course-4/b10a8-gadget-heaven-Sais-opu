@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-// import Navbar from './Navbar/Navbar';
+
 import Nav from '../components/Nav';
-// import Banner from './Banner/Banner';
+
 import Banner from '../components/Banner';
-// import Footer from './Footer/Footer';
+
 import Footer from '../components/Footer';
 import Cart from '../components/cart';
 import Wish from '../components/wish';
