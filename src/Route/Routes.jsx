@@ -13,7 +13,7 @@ const routes = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>,
-                children:[],
+                loader:()=> fetch('./Category.json'),
             },
             {
                 path: '/Dashboard',
