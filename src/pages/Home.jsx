@@ -22,7 +22,7 @@ const Home = () => {
                     {/* button */}
                     <Categories categories={categories}></Categories>
                 </div>
-                <div className='grid grid-cols-3'>
+                <div >
                     {/* card */}
                     <Outlet></Outlet>
                 </div>
