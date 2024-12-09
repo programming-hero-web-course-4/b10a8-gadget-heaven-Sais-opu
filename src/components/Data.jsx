@@ -1,17 +1,16 @@
 import { NavLink } from "react-router-dom";
 
 const Data = ({ data }) => {
-    const { product_title, product_image } = data || {};
+    const { product_title, product_image,price } = data || {};
 
     return (
-        <div className="hero bg-base-200 ">
-            <div className="hero-content text-center">
-                <div className="max-w-md">
-                    <img className="w-full h-48 overflow-hidden object-cover" src={product_image} alt="" />
-                    <p>{product_title }</p>
-                    <p className="py-6">
-                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+        <div className="hero  ">
+            <div className="hero-content ">
+                <div className="max-w-md border p-4 ">
+                    <img className=" overflow-hidden object-cover border" src={product_image} alt="" />
+                    <p className="text-xl font-semibold">{product_title }</p>
+                    <p >
+                        Price:{price}
                     </p>
                     <NavLink><button className="btn btn-primary">Details</button></NavLink>
                 </div>
