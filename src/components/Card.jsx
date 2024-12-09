@@ -9,8 +9,14 @@ const Card = () => {
     const [cate, setCate] = useState([]);
 
     useEffect(() => {
-        const filter = [...data].filter(item => item.category === category);
-        setCate(filter);
+        if (category === "All" || !category) {
+            
+            setCate(data);
+        } else {
+            
+            const filter = data.filter(item => item.category === category);
+            setCate(filter);
+        }
     }, [category, data]);
 
     return (
