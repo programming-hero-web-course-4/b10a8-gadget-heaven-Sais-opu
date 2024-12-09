@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 
 const Data = ({data}) => {
     const {product_title}=data || {}
