@@ -9,7 +9,7 @@ import Cart from '../components/cart';
 import Wish from '../components/wish';
 
 
-import Details from '../Details/Details';
+import Details from './Details';
 
 const Dashboard = () => {
     const [cartItems, setCartItems] = useState([]);

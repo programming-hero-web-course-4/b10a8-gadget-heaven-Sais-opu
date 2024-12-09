@@ -21,7 +21,7 @@ const Details = () => {
         return <div>Product not found</div>;
     }
 
-    const { product_title, product_image, price } = product || {};
+    const { product_title, product_image, price,description,specification,rating, } = product || {};
     console.log("Price:", price); // Debugging
 
     // Function to handle adding the product to wishlist
