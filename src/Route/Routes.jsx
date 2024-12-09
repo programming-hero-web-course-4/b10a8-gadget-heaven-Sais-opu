@@ -7,10 +7,12 @@ import Static from '../pages/Static';
 import Card from '../components/Card';
 import Cart from '../components/cart'; 
 import Wish from '../components/wish';
+import Error from '../components/Error';
 const routes = createBrowserRouter([
     {
         path: '/',
         element: <Layout></Layout>,
+        errorElement: <Error></Error>,
         children: [
             {
                 path: '/',
