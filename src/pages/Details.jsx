@@ -1,11 +1,12 @@
 
 
 const Details = () => {
+    // const { product_title, product_image,price } = data || {};{ data }
     return (
         <div>
-            <p>Details</p>
+            <p>hello</p>
         </div>
     );
 };
 
-export default Details;
+// export default Details;
