@@ -1,4 +1,4 @@
-import { Link, useLoaderData } from 'react-router-dom';
+import { Link, Outlet, useLoaderData } from 'react-router-dom';
 import BannerImg from '../assets/banner.jpg';
 
 import Categories from '../components/Categories';
@@ -24,7 +24,7 @@ const Home = () => {
                 </div>
                 <div className='grid grid-cols-3'>
                     {/* card */}
-
+                    <Outlet></Outlet>
                 </div>
                 
             </div>

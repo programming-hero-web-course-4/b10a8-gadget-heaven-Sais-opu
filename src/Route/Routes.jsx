@@ -4,7 +4,7 @@ import Dashboard from '../pages/Dashboard';
 import Home from '../pages/Home';
 import Details from '../pages/Details';
 import Static from '../pages/Static';
-
+import Card from '../components/Card';
 const routes = createBrowserRouter([
     {
         path: '/',
@@ -13,7 +13,13 @@ const routes = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>,
-                loader:()=> fetch('./Category.json'),
+                loader: () => fetch('./Category.json'),
+                children: [
+                    {
+                        path: '/category/:category',
+                        element:<Card></Card>
+                    },
+                ]
             },
             {
                 path: '/Dashboard',
